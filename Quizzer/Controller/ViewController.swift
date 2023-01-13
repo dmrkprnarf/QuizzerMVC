@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         updateUI()
     }
-    
+
     @IBAction func buttonPressed(_ sender: UIButton) {
         
         let userAnswer = sender.currentTitle!
