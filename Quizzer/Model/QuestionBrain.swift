@@ -62,6 +62,7 @@ struct QuestionBrain {
     func getScore() -> Int {
         return scoreNumber 
     }
+    
     func getProgressBar() -> Float {
         return Float(questionNumber) / Float(quiz.count)
     }
